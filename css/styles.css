@@ -1,0 +1,17 @@
+body{
+    font-family: 'Jost', sans-serif !important;
+}
+.topbar{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.navbar-brand img{
+    height: 100px;
+}
+.navbar{
+    background-color: black;
+}
+.btn-sign{
+    padding: 10px;
+}
