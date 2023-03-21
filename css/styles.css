@@ -14,6 +14,12 @@ body{
 .navbar{
     background-color: black;
 }
+.nav-link:hover{
+    color: black !important;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
 .btn-sign{
     padding: 10px;
 }
