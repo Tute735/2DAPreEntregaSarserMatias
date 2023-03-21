@@ -343,3 +343,101 @@ width: 100%;
     margin: 10px;
     
 }
+ /*Venta Producto*/
+.venta{
+    display: flex;
+}
+ .venta img{
+   width: 100%;
+    border: black 3px solid;
+
+ }
+.tablatalles{
+    display: flex;
+    width: 700px;
+    border: 3px solid black;
+    margin-left: 10px;
+    
+ }
+.venta .infopro{
+    display: inline-block;
+    width: 100%;
+}
+.venta .infopro h1{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.venta .infopro h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+}
+.venta .infopro .tallespro{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;   
+    
+}
+.venta .infopro .tallespro input{
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+}
+.venta .infopro .compra{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.venta .infopro .compra input{
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background-color: black;
+    margin: 100px;
+
+}
+.venta .infopro h3{
+    font-size: 2.2vw;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.venta .infopro p{
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+
+}
+
+@media(max-width:1700px){
+    .venta{
+        display: block;
+    }
+    .venta img{
+        margin-top: 10px;
+    }
+    .venta .infopro h1{
+        font-size: 8vw;
+    }
+    .venta .infopro h2{
+        font-size: 4vw;
+        font-weight: bold;
+        }
+        .venta .infopro h3{
+            font-size: 3vw;
+        }
+    .venta .infopro p{
+        font-size: 3vw;
+    }
+    .tablatalles{
+        margin-left: 0px;
+
+    }
+
+   
+}
