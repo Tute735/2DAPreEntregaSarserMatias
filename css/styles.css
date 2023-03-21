@@ -201,7 +201,6 @@ width: 100%;
     justify-content: center;
     align-items: center;
   }
-  
   .container_contact .contact_data {
     background:white;
     width: 600px;
@@ -210,11 +209,9 @@ width: 100%;
     margin: 0 10px;
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
   }
-  
   .container_contact .contact_data form {
     padding: 0 1rem;
   }
-  
   .container_contact .contact_data form input,
   textarea {
     width: 95%;
@@ -224,13 +221,11 @@ width: 100%;
     font-size: 1rem;
     border-radius: 05px;
   }
-  
   .container_contact .contact_data h2 {
     margin: 1.5rem;
     border-bottom: 0.2rem black solid;
     width: 25%;
-  }
-  
+  }  
   .container_contact .contact_data label {
     display: block;
     padding-top: 15px;
@@ -238,8 +233,7 @@ width: 100%;
   }
   .container_contact .contact_data textarea{
       margin-left: 10px;
-  }
-  
+  }  
   .container_contact .contact_data button {
     margin: 20px 10px;
     border: none;
@@ -251,13 +245,11 @@ width: 100%;
     cursor: pointer;
     transition: all 0.3s;
   }
-  
   .container_contact .contact_data button:hover {
     background: lightblue;
     transition: 0.3s;
     color: black;
   }
-  
   .container_contact .contact_data2 {
     background: #fff;
     border-radius: 02px;
@@ -266,26 +258,21 @@ width: 100%;
     margin: 0 10px;
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
   }
-  
   .container_contact .contact_data2 ul {
     list-style: none;
   }
-  
   .container_contact .contact_data2 ul li {
     margin: 1.5rem 1rem;
   }
-  
   .container_contact .contact_data2 ul li .info_location {
     margin-left: 10px;
     font-size: 1.2rem;
     text-decoration: underline;
   }
-  
   .container_contact .contact_data2 ul li p {
     font-size: 14px;
     margin-left: 35px;
   }
-  
   .container_contact .contact_data2 .map iframe {
     width: 90%;
     height: 280px;
@@ -300,7 +287,6 @@ width: 100%;
     .contact_data2 {
       width: 80%;
       margin-top: 30px;
-      
     }
     .container_contact .contact_data h2 {
       width: 50%;
@@ -310,7 +296,6 @@ width: 100%;
   @media (max-width: 775px) {
     .container_contact ,.contact_data{
         margin-bottom: 500px;
-
     }
     .container_contact .contact_data2 {
       width: 75%;
@@ -332,7 +317,6 @@ width: 100%;
     .sneakers__title{
         font-size:10vw;
     }
-
 }
 .sneakers__list{
     display: flex;
@@ -341,7 +325,6 @@ width: 100%;
 }
 .cont-lista{
     margin: 10px;
-    
 }
  /*Venta Producto*/
 .venta{
@@ -350,14 +333,12 @@ width: 100%;
  .venta img{
    width: 100%;
     border: black 3px solid;
-
  }
 .tablatalles{
     display: flex;
     width: 700px;
     border: 3px solid black;
     margin-left: 10px;
-    
  }
 .venta .infopro{
     display: inline-block;
@@ -396,7 +377,6 @@ width: 100%;
     color: #fff;
     background-color: black;
     margin: 100px;
-
 }
 .venta .infopro h3{
     font-size: 2.2vw;
@@ -410,10 +390,7 @@ width: 100%;
     align-items: center;
     display: flex;
     width: 100%;
-
-
 }
-
 @media(max-width:1700px){
     .venta{
         display: block;
@@ -438,6 +415,4 @@ width: 100%;
         margin-left: 0px;
 
     }
-
-   
 }
